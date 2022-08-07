@@ -97,7 +97,7 @@ else:
         # - ansonsten r3 (dieser muss dann nicht NaN sein)
         r = r1 if not np.isnan(r1) else r2 if not np.isnan(r2) else r3
 
-# Berechnung von Unfang <circ> und Fläche <area> des Inkreises
+# Berechnung von Unfang (circ) und Fläche (area) des Inkreises 
 circ = 2 * np.pi * r
 area = np.pi * r**2
 
